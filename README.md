@@ -1,2 +1,2 @@
 # UsefulLib
-Dll with some good things
+Dll with some good things, that I don't want to write again and again and again...
