@@ -8,7 +8,7 @@ namespace UsefulLib.DataAccess.JSONFile
         public T Load(string fileName = "Data.bin")
         {
             if (File.Exists(fileName))
-                return JsonConvert.DeserializeObject<T>(File.ReadAllText("Settings.json"));
+                return JsonConvert.DeserializeObject<T>(File.ReadAllText(fileName));
             else
                 return new T();
         }
