@@ -9,6 +9,8 @@
     <Grid>
         <design:PackIcon Kind="Search" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
         <TextBox
+                Margin="25 0 0 0"
+                MinWidth="150"
                 design:HintAssist.Hint="Search"
                 Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=UserControl}, Path=SearchString, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}"/>
     </Grid>
