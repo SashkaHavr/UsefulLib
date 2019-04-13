@@ -7,8 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <design:PackIcon Kind="Search" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <design:PackIcon Kind="Search" VerticalAlignment="Center" HorizontalAlignment="Left"/>
         <TextBox
+                VerticalAlignment="Center"
                 Margin="25 0 0 0"
                 MinWidth="150"
                 design:HintAssist.Hint="Search"
