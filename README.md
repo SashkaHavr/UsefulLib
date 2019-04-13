@@ -1,2 +1,3 @@
 # UsefulLib
 Dll with some good things, that I don't want to write again and again and again...
+(only desktop) (contains a lot of wpf things)
