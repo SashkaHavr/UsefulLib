@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UsefulLib.Extention
 {
-    static class FileSystemInfoExtention
+    public static class FileSystemInfoExtention
     {
         static public string ConvertSize(this FileSystemInfo fsi, double size)
         {
