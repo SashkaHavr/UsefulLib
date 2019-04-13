@@ -77,6 +77,7 @@
     <Compile Include="DataAccess\IRepository.cs" />
     <Compile Include="DataAccess\JSONFile\JSONLoader.cs" />
     <Compile Include="DataAccess\JSONFile\JSONSaver.cs" />
+    <Compile Include="DataAccess\Logger\TXTLogger.cs" />
     <Compile Include="DataAccess\Singleton.cs" />
     <Compile Include="Extention\FileSystemInfoExtention.cs" />
     <Compile Include="MVVM\LocalizationManagerBase.cs" />
