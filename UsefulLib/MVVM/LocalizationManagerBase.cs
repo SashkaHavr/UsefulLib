@@ -6,7 +6,7 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace UsefulLib.MVVMClasses
+namespace UsefulLib.MVVM
 {
     /// <summary>
     /// Inherit, create string properies(with INotified) and create resx files with same var names and appropriate language file name

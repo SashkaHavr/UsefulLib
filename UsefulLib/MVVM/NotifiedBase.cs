@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace UsefulLib.MVVMClasses
+namespace UsefulLib.MVVM
 {
     abstract public class NotifiedBase : INotifyPropertyChanged
     {

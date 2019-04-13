@@ -78,6 +78,7 @@
     <Compile Include="DataAccess\JSONFile\JSONLoader.cs" />
     <Compile Include="DataAccess\JSONFile\JSONSaver.cs" />
     <Compile Include="DataAccess\Singleton.cs" />
+    <Compile Include="Extention\FileSystemInfoExtention.cs" />
     <Compile Include="MVVM\LocalizationManagerBase.cs" />
     <Compile Include="MVVM\NotifiedBase.cs" />
     <Compile Include="MVVM\RelayCommand.cs" />
@@ -93,5 +94,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
